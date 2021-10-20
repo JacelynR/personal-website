@@ -1,0 +1,211 @@
+/**  BASE STYLING **/
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  #about, #porfolio, #contact {
+    height: 600px;
+  }
+  
+  /** GRID **/
+  .full-width {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .half-width {
+    width: 600px;
+    float: left;
+  }
+  
+  .third-width {
+    width: 400px;
+    float: left;
+  }
+  
+  /** HEADER **/
+  
+  header {
+    height: 800px;
+    background: url("https://s26.postimg.org/ykk4efu21/forest2.jpg");
+    background-size: cover;
+  }
+  
+  header h1 {
+    text-transform: uppercase;
+    padding: 50px 0;
+    font-family: 'Lora';
+    font-size: 30px;
+    color: #29293d;
+  }
+  
+  nav {
+    float: right;
+    padding: 75px 40px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #33334d;
+    padding-left: 60px;
+  }
+  
+  header h2 {
+    width: 1000px;
+    clear: left;
+    font-family: 'Lora';
+    font-size: 72px;
+    line-height: normal;
+    color: #33334d;
+    padding: 20px 0;
+  }
+  
+  header h2 span {
+    color: #14141f;
+  }
+  
+     /**  ABOUT **/
+     #about {
+       background-color: #5F9EA0;
+     }
+  
+     #about .full-width {
+       padding: 80px 0;
+     }
+  
+    #about h2 {
+      font-family: 'Lora';
+      font-size: 36px;
+    }
+  
+    #about p {
+      font-size: 21px;
+      color: #00001a;
+      line-height: 40px;
+      padding-right: 50px;
+    }
+  
+    #mtnpic {
+      display: block;
+      margin: auto;
+      width: 40%;
+    }
+  
+  
+    /** PORTFOLIO **/
+    #portfolio {
+      background-color: #c2c2d6;
+      text-align: center;
+      height: 600px;
+      overflow: hidden;
+    }
+  
+    #portfolio .full-width {
+      padding: 90px 0;
+    }
+  
+    #portfolio img {
+      padding-bottom: 30px;
+    }
+  
+    #portfolio h2 {
+      text-align: center;
+      margin: 15px 0;
+    }
+  
+    #portfolio h3 {
+      font-size: 24px;
+      width: 400px;
+      margin: 0 auto;
+    }
+  
+    #portfolio p {
+      font-family: 'Lora';
+      font-size: 18px;
+      line-height: 35px;
+      color: #2B2B2B;
+      padding: 0 35px
+    }
+  
+    /** CONTACT **/
+    #contact {
+      background-color: #6699ff;
+      overflow: hidden;
+    }
+  
+    #contact .full-width {
+      padding: 80px 0;
+    }
+  
+  #contact h2, #socialmedia-header, #contact ul {
+    padding-left: 115px;
+  }
+  
+  #contact h2 {
+    font-family: 'Lora';
+    font-size: 24px;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: bold;
+  }
+  
+  #contact p {
+    font-family: 'Lora';
+    font-size: 25px;
+    text-align: center;
+    padding: 15px 0;
+  }
+  
+  #socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    margin: 40px 0 0 0;
+  }
+  
+  #contact a {
+    text-decoration: none;
+    color: #C49075;
+    font-weight: bold;
+    font-size: 28px;
+  }
+  
+  #contact ul {
+    list-style: none;
+  }
+  
+  #contact ul li {
+    display: inline-block;
+  }
+  
+  #contact ul img {
+    padding-right: 30px;
+  }
+  
+  #contact form {
+    width: 550px;
+    height: 450px;
+    margin: auto;
+    position: relative;
+  }
+  
+  #contact input {
+    width: 375px;
+    height: 40px;
+  }
+  
+  #contact textarea {
+    width: 375px;
+    height: 300px;
+  }
+  
+  footer {
+    background-color: #cc80ff;
+    font-weight: bold;
+  }
+  
